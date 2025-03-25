@@ -1,6 +1,7 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a simple blog application built with React. It allows users to view, add and delete blog posts. The application uses the Context API to manage state, and uses a JSON server to store the data.
 
 ## Available Scripts
 
@@ -13,6 +14,11 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
+
+### `npm run start-db`
+
+Starts the `json-server` to serve the data from `db.json` on port 8000.\
+Use this script to simulate a REST API for local development.
 
 ### `npm test`
 
